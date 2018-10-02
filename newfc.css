@@ -1,0 +1,74 @@
+.leftlogo{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
+    height: 38px;
+    width: 183px;
+    background-position: 0 100%;
+    background-size: 378.6885245901639% 1334.2105263157896%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.a{
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 70px;
+    background: transparent;
+    padding: 24px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.head{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.rightlogo{
+    display: block;
+    float: right;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.rightlogo1{
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 66px;
+    background: #fae058;
+    color: black;
+    padding: 2px 8px;
+    text-align: center;
+    position: relative;
+}
+.rightlogo1-1{
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid  transparent;
+    border-left: 20px solid #fae058;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: inline-block;
+    width: 0;
+    height: 0;
+}
+.rightlogo2{
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-left: 42px;
+}
+.login{
+    text-decoration: none;
+}
+.login1{
+    
+}
