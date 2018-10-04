@@ -288,7 +288,7 @@ h2{
     display: inline-block;
     vertical-align: top;
     line-height: 65px;
-    font-size: 30px;
+    font-size: 37px;
     position: relative;
 }
 .stepImage{
@@ -330,3 +330,4 @@ h2{
     bottom: -32px;
     font-size: 32px;
 }
+.sectionFeatures{}
