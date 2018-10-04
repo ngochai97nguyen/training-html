@@ -1,4 +1,19 @@
-.leftlogo{
+body{
+    min-width: 320px;
+    background: white;
+    font-family: Helvetica,sans-serif;
+    line-height: 1.3;
+    margin-top: -60px;
+}
+.page{
+    padding-top: 60px;
+    min-height: 100vh;
+    overflow: hidden;
+    padding-bottom: 185px;
+    position: inherit;
+
+}
+.leftLogo{
     background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
     height: 38px;
     width: 183px;
@@ -19,7 +34,7 @@
     height: 70px;
     background: transparent;
     padding: 24px 0;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,30 +43,32 @@
 .head{
     padding-right: 2rem;
     padding-left: 2rem;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+    position: inherit;
 }
-.rightlogo{
+.rightLogo{
     display: block;
     float: right;
     color: white;
     position: relative;
     z-index: 2;
 }
-.rightlogo1{
+.rightLogo1{
+    border-radius: 7px 0 0 7px;
     font-size: 15px;
     display: inline-block;
     vertical-align: middle;
     max-width: 66px;
     background: #fae058;
     color: black;
-    padding: 2px 8px;
+    padding: 2px 0px;
     text-align: center;
     position: relative;
 }
-.rightlogo1-1{
-    border-top: 27px solid transparent;
-    border-bottom: 27px solid  transparent;
+.rightLogo1-1{
+
+    border-top: 31px solid transparent;
+    border-bottom: 30px solid  transparent;
     border-left: 20px solid #fae058;
     position: absolute;
     top: 0;
@@ -60,15 +77,167 @@
     width: 0;
     height: 0;
 }
-.rightlogo2{
+.rightLogo2{
     display: inline-block;
     vertical-align: middle;
     text-transform: uppercase;
     margin-left: 42px;
+    margin-right: 3px;
 }
 .login{
     text-decoration: none;
+    margin-top: 3px;
+    display: block;
+    font-size: 14px;
+    color: white;
 }
 .login1{
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;   
+}
+.rightLogo3{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 29px;
+    border-left: 1px solid black;
+    margin-left: 28px;
+    position: relative;
+    margin-top: 8px;
+}
+.firstPage{
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.firstPageImage{
+    position: absolute;
+    background-image: url(https://www.flirtycash.com/css/images/intro-bg.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+
+}
+.firstPage_tt{
+    position: relative;
+    margin-top: -91px;
+}
+.firstPage_title{
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+    height: 67px;
+    margin-top: -125px;
+}
+h2{
+    font-weight: 400px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-size: 34px;
+}
+#serius{
+    background: #29c073;
+    font-size: 44px;
+    color: white;
+    padding: 4px 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -4px;
+    font-weight: 400px;
+}
+.join a:hover{
+    background: none;
+    color: #0b9ed1;
+    border: 1px solid  #0b9ed1;
     
+}
+.joinNow{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    padding: 14px 21px;
+    background: #0b9ed1;
+    border: 1px solid #0b9ed1;
+    min-width: 135px;
+}
+.logoBot{
+    font-size: 17px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+}
+.logoBot1{
+    font-size: 16px;
+    color: black;
+    background: #fae058;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    padding: 17px 16px 14px 21px;
+    border-radius: 0 5px 0 0;
+}
+.logoBot1 > strong{
+    font-size: 50px;
+    display: block;
+    line-height: .9;
+}
+.logoBot2{
+
+
+}
+.logoBot2a{
+    background: #29c073;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px 20px;
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.logoBot2a > strong{
+    letter-spacing: -.05em;
+    font-weight: 400;
+}
+.logoBot2a > small{
+    font-size: 11px;
+    display: block;
+    line-height: 1;
+    margin-top: 3px;
+    text-transform: lowercase;
+    letter-spacing: -.05em;
+    margin-bottom: 3px;
+}
+.logo3{
+    position: absolute;
+    left: 100%;
+    top: 96px;
+    border-top: 27px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 22px solid #29c073;
+    height: 1px;
 }
