@@ -44,7 +44,6 @@ body{
     padding-right: 2rem;
     padding-left: 2rem;
     margin: 0 auto;
-    position: inherit;
 }
 .rightLogo{
     display: block;
@@ -240,4 +239,94 @@ h2{
     border-bottom: 21px solid transparent;
     border-left: 22px solid #29c073;
     height: 1px;
+}
+.sectionStep{
+    position: relative;
+    text-align: center;
+    padding: 20px 0 50px;
+}
+.conteiner{
+    width: 70rem;
+    margin: 0 auto;
+
+}
+.sectionTitle{
+    margin-bottom: 88px;
+    text-transform: uppercase;
+    letter-spacing: -.03em;
+    font-weight: 400;
+    font-size: 42px;
+}
+.sectionTitle > strong{
+    color: #29c073;
+}
+.steps{
+    position: relative;
+}
+.row{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -1rem;
+    margin-left: -1rem;
+
+}
+.square{
+    margin-bottom: 30px;
+    flex-basis: 50%;
+    max-width: 43%;
+    padding-right: 40px;
+}
+.step{
+    color: #39b2e1;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 65px;
+    font-size: 30px;
+    position: relative;
+}
+.stepImage{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19…);
+    height: 137px;
+    width: 195px;
+    background-position: 40.918164% 0px;
+    margin: 0 auto;
+}
+.step2Image{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19…);
+    background-position: 0 36.24338624338625%;
+    background-size: 396% 393.0232558139535%;
+    width: 177px;
+    height: 129px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.step3Image{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19…);
+    background-position: 0 0;
+    background-size: 344.77611940298505% 381.203007518797%;
+    width: 201px;
+    height: 133px;
+    margin: 0 auto;
+}
+.stepContent{
+    padding-top: inherit;
+}
+.square-1{
+    font-size: 18px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 45px 0 43px;
+}
+#step1{
+    position: absolute;
+    right: 38%;
+    bottom: -32px;
+    font-size: 32px;
 }
