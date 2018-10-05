@@ -9,7 +9,7 @@ body{
     padding-top: 60px;
     min-height: 100vh;
     overflow: hidden;
-    padding-bottom: 185px;
+    padding-bottom: 0;
     position: inherit;
 
 }
@@ -22,6 +22,9 @@ body{
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
+}
+.textCenter {
+    text-align: center;
 }
 .a{
     color: inherit;
@@ -178,6 +181,7 @@ h2{
     background: #0b9ed1;
     border: 1px solid #0b9ed1;
     min-width: 135px;
+    transition: all 0.4s ease;
 }
 .logoBot{
     font-size: 17px;
@@ -202,10 +206,6 @@ h2{
     font-size: 50px;
     display: block;
     line-height: .9;
-}
-.logoBot2{
-
-
 }
 .logoBot2a{
     background: #29c073;
@@ -240,10 +240,20 @@ h2{
     border-left: 22px solid #29c073;
     height: 1px;
 }
-.sectionStep{
+.sectionSteps{
     position: relative;
     text-align: center;
     padding: 20px 0 50px;
+}
+.blackBot{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: black;
+    z-index: 1;
 }
 .conteiner{
     width: 70rem;
@@ -251,17 +261,20 @@ h2{
 
 }
 .sectionTitle{
-    margin-bottom: 88px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: -.03em;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .sectionTitle > strong{
     color: #29c073;
 }
 .steps{
     position: relative;
+    text-align: center;
 }
 .row{
     display: flex;
@@ -277,6 +290,7 @@ h2{
     flex-basis: 50%;
     max-width: 43%;
     padding-right: 40px;
+    z-index: 2;
 }
 .step{
     color: #39b2e1;
@@ -288,7 +302,7 @@ h2{
     display: inline-block;
     vertical-align: top;
     line-height: 65px;
-    font-size: 37px;
+    font-size: 40px;
     position: relative;
 }
 .stepImage{
@@ -320,14 +334,217 @@ h2{
 }
 .square-1{
     font-size: 18px;
-    border: 1px solid #f0f0f0;
+    border: 1px solid wheat;
     border-radius: 5px;
-    padding: 45px 0 43px;
+    padding: 60px 0 43px;
+    background: white;
 }
-#step1{
+.sectionFeatures{
+    background: black;
+    padding: 90px 0 391px;
+    position: relative;
+    color: black;
+}
+.imageBot{
+    background-image: url(https://www.flirtycash.com/images/wave.png?bfa75e2c63f959da7af2ab5637984d65);
+    content: "";
+    height: 287px;
     position: absolute;
-    right: 38%;
-    bottom: -32px;
-    font-size: 32px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
-.sectionFeatures{}
+.features{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    width: 115%;
+    margin-top: 100px;
+}
+.col2{
+    padding-right: 40px;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.colImage1{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
+    background-position: 96.36650868878357% 43.55555555555555%;
+    background-size: 1155% 889.4736842105264%;
+    width: 60px;
+    height: 57px;
+}
+.featureTitle{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.colImage2{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
+    background-position: 81.77570093457945% 78.52348993288591%;
+    background-size: 1358.8235294117646% 844.9999999999999%;
+    width: 51px;
+    height: 60px;
+}
+.colImage3{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
+    background-position: 89.92248062015504% 78.52348993288591%;
+    background-size: 1443.75% 844.9999999999999%;
+    width: 48px;
+    height: 60px;
+}
+.colImage4{
+    background-image: url(https://www.flirtycash.com/images/sprite.png?c5e8d19f8c14e8c9c8bbc0cacbc4e2b9);
+    background-position: 97.94628751974723% 29.082774049217004%;
+    background-size: 1155% 844.9999999999999%;
+    width: 60px;
+    height: 60px;
+}
+.number{
+    color: #29c073;
+    font-size: 36px;
+}
+.featureContent{
+    color: #687178;
+}
+.sectionTools{
+    padding: 140px 0 196px;
+    min-height: 620px;
+    overflow: hidden;
+
+}
+.sectionInner{
+    position: relative;
+}
+.sectionHead{
+    color: #54575e;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    letter-spacing: -.02em;
+
+}
+.innerImage{
+    width: 929px;
+    position: absolute;
+    top: -8px;
+    left: 339px;
+
+}
+img{
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.sectionBody{
+    position: relative;
+}
+ul{
+    list-style: none inside url(http://webcoban.vn/public/home/img_demo/iconulli.jpg);
+    padding: 0;
+}
+li{
+    padding: 16px;
+    font-size: 18px;
+}
+#seting{
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.sectionPlans{
+    background-image: url(https://www.flirtycash.com/images/dolars@2x.jpg?9ad05106f4c4a1a5626002157bd17ecd);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position-x: 50%;
+    background-position-y: bottom;
+}
+table{
+    border-collapse: collapse;
+    width: 352px;
+    height: 510px;
+}
+th{
+    background-color: #25313d;
+    color: white;
+    padding: 20px 0;
+}
+td{
+    padding: 0 25px;
+}
+td{
+    font-size: 14px;
+}
+td + *{
+    color: #29c073;
+    text-align: right;
+
+}
+.row1{
+    padding-left: 40px;
+    
+}
+.row2{
+    border: 1px solid wheat;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+    overflow: hidden;
+}
+.sectionFront{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    padding-top: 90px;
+}
+.plans{
+    padding-bottom: 131px;
+}
+.sectionOut{
+    background-image: url(https://www.flirtycash.com/images/dolars-2@2x.jpg?121ef3abf278b5566851f0f66e8ccb06);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    color: #fff;
+    padding: 133px 0 138px;
+}
+.sectionHead > h2{
+    color: white;
+}
+.sectionHead > h5{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sectionContact{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #0b9ed1;
+    font-weight: 400;
+    padding: 14px 21px;
+    background: transparent;
+    border: 1px solid #0b9ed1;
+    min-width: 135px;
+    transition: all 0.4s ease;
+}
+.join .sectionContact:hover{
+    background: #0b9ed1;
+    color: #fff;
+}
+#or{
+    margin: 0 17px;
+    font-size: 18px;
+}
+.footer{
+    margin: 40px;
+}
